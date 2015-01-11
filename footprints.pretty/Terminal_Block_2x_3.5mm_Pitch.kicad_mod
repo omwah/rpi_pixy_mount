@@ -1,0 +1,10 @@
+(module Terminal_Block_2x_3.5mm_Pitch (layer F.Cu) (tedit 54893F80)
+  (fp_text reference P3 (at 0 -3.81) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Power Input" (at 0 4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -1.75 0) (size 2.99974 2.99974) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 1.75 0) (size 2.99974 2.99974) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
+)
